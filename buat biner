@@ -1,0 +1,19 @@
+Program Prima
+Kamus
+	masukan,i : integer
+	faktor : integer
+Algoritma
+
+	input(masukan)
+	faktor <-- 0
+	for i <-- 1 to masukan do
+		if masukan mod i == 0 then
+			faktor <-- faktor + 1
+		endif
+	endfor
+	if faktor == 2 then
+		output(true)
+	else
+		output(false)
+	endfor
+Endprogram
